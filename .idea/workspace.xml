@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9cd50c3-3324-4ae7-b6b1-37d197fc2751" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/uji/al426285/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/uji/al426285/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/uji/al426285/Servidor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/uji/al426285/App2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/uji/al426285/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/uji/al426285/App1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/uji/al426285/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/uji/al426285/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/uji/al426285/Servidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/uji/al426285/Servidor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +42,8 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.App.executor": "Run",
+    "Application.App1.executor": "Run",
+    "Application.App2.executor": "Run",
     "Application.Cliente.executor": "Run",
     "Application.Servidor.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
@@ -63,9 +61,22 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Cliente">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="es.uji.al426285.App" />
+  <component name="RunManager" selected="Application.App1">
+    <configuration name="App1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="es.uji.al426285.App1" />
+      <module name="Mini_Chat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="es.uji.al426285.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="es.uji.al426285.App2" />
       <module name="Mini_Chat" />
       <extension name="coverage">
         <pattern>
@@ -105,9 +116,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App1" />
+        <item itemvalue="Application.App2" />
         <item itemvalue="Application.Cliente" />
         <item itemvalue="Application.Servidor" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +139,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724243337543</updated>
-      <workItem from="1724243338822" duration="7545000" />
+      <workItem from="1724243338822" duration="12004000" />
     </task>
     <servers />
   </component>
